@@ -60,7 +60,7 @@ async def operacion(ctx, left: int, mensaje:str, right: int):
     elif mensaje == "/":
         await ctx.send( left / right)
         
-E
+
 token=""
 
 bot.run(token)
